@@ -1,7 +1,7 @@
 import React from 'react'
 import './Navbar.css'
-import logo from '../../Assets/logo.png'
-import navProfile from '../../Assets/profile.png'
+import logo from '../../assets/logo.png'
+import navProfile from '../../assets/profile.png'
 
 const Navbar = () => {
   return (
