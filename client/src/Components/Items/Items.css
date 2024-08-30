@@ -13,22 +13,6 @@
   text-decoration: none;
 }
 
-.items p: link {
-      text-decoration: none;
-}
-
-.items p:visited {
-      text-decoration: none;
-}
-
-.items p:hover {
-      text-decoration: none;
-}
-
-.items p:active {
-      text-decoration: none;
-}
-
 .items-price {
   display: flex;
   gap: 10px;
