@@ -1,0 +1,25 @@
+.offer-collections {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 100px;
+}
+
+.offer-collections h1 {
+  color: red;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.offer-collections hr {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.collections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin-top: 30px;
+  gap: 50px;
+}

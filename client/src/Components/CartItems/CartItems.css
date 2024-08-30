@@ -1,0 +1,71 @@
+.cartitems {
+  margin: 100px 150px;
+}
+
+.cartitems hr {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.cartitems-main {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 0.5fr 2fr 1fr 1fr 1fr 1fr;
+  gap: 50px;
+  padding: 15px 0px;
+  color: #454545;
+  font-size: 15px;
+}
+
+.cartitems-format {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.cartitems-prod-ico {
+  height: 50px;
+}
+
+.cartitems-qty {
+  width: 60px;
+  height: 50px;
+  border: 1px solid #808080;
+  background: #fff;
+}
+
+.cartitems-remove-ico {
+  width: 15px;
+  margin: 0px 30px;
+  cursor: pointer;
+}
+
+.cartitems-bottom {
+  display: flex;
+  padding: 80px 0px;
+}
+
+.cartitems-total {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-right: 100px;
+  gap: 20px;
+}
+
+.cartitems-item-total {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0px;
+}
+
+.cartitems-total button {
+  width: 250px;
+  height: 50px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+}

@@ -1,0 +1,66 @@
+.addproduct {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 40px;
+  margin: 20px 30px;
+  background: #fff;
+  max-width: 800px;
+  border-radius: 10px;
+}
+
+.addproduct-itemfield {
+  width: 100%;
+  color: #808080;
+  font-size: 20px;
+}
+
+.addproduct-itemfield input {
+  width: 100%;
+  height: 50px;
+  border-radius: 10px;
+  padding-left: 10px;
+  outline: none;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  color: #808080;
+  font-family: "Varela Round";
+  font-size: 15px;
+}
+
+.addproduct-price {
+  display: flex;
+  gap: 20px;
+}
+
+.category-selector {
+  width: 30%;
+  height: 50px;
+  border-radius: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+  color: #808080;
+  font-family: "Varela Round";
+  font-size: 15px;
+}
+
+.addproduct-upload-img {
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.addproduct-btn {
+  width: 150px;
+  height: 50px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 5px;
+  background: blue;
+  color: #fff;
+  font-family: "Varela Round";
+  cursor: pointer;
+}

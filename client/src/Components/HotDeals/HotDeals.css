@@ -1,0 +1,24 @@
+.hot-deals {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  height: 90vh;
+}
+
+.hot-deals h1 {
+  color: red;
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.hot-deals hr {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.deal-items {
+  display: flex;
+  margin-top: 50px;
+  gap: 25px;
+}

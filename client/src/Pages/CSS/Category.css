@@ -1,0 +1,43 @@
+.category-banner {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+
+.category-index {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
+}
+
+.category-sort {
+  padding: 10px 15px;
+  border-radius: 30px;
+  border: 1px solid #808080;
+}
+
+.category-index p span {
+  font-weight: 500;
+}
+
+.category-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 0px 100px;
+  gap: 50px;
+}
+
+.category-loadmore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin: 100px auto;
+  border-radius: 75px;
+  background: #4b354f;
+  color: #f5eef7;
+  font-size: 12px;
+  cursor: pointer;
+}

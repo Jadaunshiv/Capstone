@@ -1,0 +1,28 @@
+.items {
+  width: 300px;
+}
+.items:hover {
+  transform: scale(1.1);
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.items p {
+  margin: 5px 0px;
+}
+
+.items-price {
+  display: flex;
+  gap: 10px;
+}
+
+.discounted-price {
+  font-size: 15px;
+  color: green;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: red;
+}

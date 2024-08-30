@@ -1,0 +1,42 @@
+.home {
+  height: 50vh;
+  display: flex;
+}
+
+.home-left {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  gap: 2px;
+  padding-left: 10px;
+  background-image: linear-gradient(45deg, #d5c8fe, #ffcae9);
+}
+
+.home-left h2 {
+  color: #ff81a3;
+  font-size: 32px;
+}
+
+.home-left p {
+  color: #77849e;
+  font-size: 18px;
+}
+.offer-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 24px;
+  width: 240px;
+  gap: 10px;
+  border-radius: 75px;
+  background-color: #ff81a3;
+  margin-top: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.home-right img {
+  width: 60vw;
+  height: 50vh;
+}
