@@ -29,7 +29,7 @@ const AddProduct = () => {
         let formData = new FormData();
         formData.append('product', image);
 
-        await fetch('https://simple-goods-server.onrender.com', {
+        await fetch('https://simple-goods-server.onrender.com/uploads', {
             method: 'POST',
             headers: {
                 Accept: 'application/json',
@@ -39,7 +39,7 @@ const AddProduct = () => {
         if(resData.success) {
             product.image = resData.image_url;
             console.log(product);
-            await fetch('https://simple-goods-server.onrender.com', {
+            await fetch('https://simple-goods-server.onrender.com/addproduct', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/json',
