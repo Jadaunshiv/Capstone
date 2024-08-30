@@ -17,7 +17,7 @@ const Auth = () => {
   const login = async () => {
     console.log("Logging in...", formData);  
     let responseData;
-    await fetch('http://localhost:4000/login',{
+    await fetch('https://simple-goods-server.onrender.com/login',{
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
@@ -38,7 +38,7 @@ const Auth = () => {
   const signup = async () => {
     console.log("Signing up...", formData); 
     let responseData;
-    await fetch('http://localhost:4000/signup',{
+    await fetch('https://simple-goods-server.onrender.com/signup',{
       method: 'POST',
       headers: {
         Accept: 'application/form-data',
