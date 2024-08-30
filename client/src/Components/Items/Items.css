@@ -9,8 +9,24 @@
 
 .items p {
   margin: 5px 0px;
-  color: #A9A9A9;
+  color: #808080;
   text-decoration: none;
+}
+
+.items p: link {
+      text-decoration: none;
+}
+
+.items p:visited {
+      text-decoration: none;
+}
+
+.items p:hover {
+      text-decoration: none;
+}
+
+.items p:active {
+      text-decoration: none;
 }
 
 .items-price {
