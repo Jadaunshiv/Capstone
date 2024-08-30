@@ -9,8 +9,8 @@
 
 .items p {
   margin: 5px 0px;
-  color: #808080;
-  underline: none;
+  color: #A9A9A9;
+  text-decoration: none;
 }
 
 .items-price {
