@@ -19,12 +19,12 @@ const ShopContextProvider = (props) => {
     const [cartItems, setCartItems] = useState(defaultCart());  
     
     useEffect(() => {
-        fetch('https://simple-goods-server.onrender.com')
+        fetch('https://simple-goods-server.onrender.com/allproducts')
         .then((response) => response.json())
         .then((data) => setAll_Product(data))
 
         if(localStorage.getItem('auth-token')){
-            fetch('https://simple-goods-server.onrender.com', {
+            fetch('https://simple-goods-server.onrender.com/getcart', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/form-data',
@@ -41,7 +41,7 @@ const ShopContextProvider = (props) => {
     const addToCart = (itemId) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId]+1}));
         if(localStorage.getItem('auth-token')){
-            fetch('https://simple-goods-server.onrender.com',{
+            fetch('https://simple-goods-server.onrender.com/addtocart',{
                 method: 'POST',
                 headers: {
                     Accept: 'application/form-data',
@@ -58,7 +58,7 @@ const ShopContextProvider = (props) => {
     const removeFromCart = (itemId) => {
         setCartItems((prev) => ({...prev, [itemId]: prev[itemId]-1}));
         if(localStorage.getItem('auth-token')){
-            fetch('https://simple-goods-server.onrender.com', {
+            fetch('https://simple-goods-server.onrender.com/removefromcart', {
                 method: 'POST',
                 headers: {
                     Accept: 'application/form-data',
